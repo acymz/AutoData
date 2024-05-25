@@ -6,26 +6,26 @@ on:
     - cron: '0 17 * * *'
 
 jobs:
-  get-json:
+  获取脚本:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Python
+    - name: 设置Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x' # specify the Python version you want to use
+        python-version: '3.x' # 指定你想要使用的Python版本
 
-    - name: Install requests package
+    - name: 安装requests
       run: pip install requests
 
-    - name: Run main.py
+    - name: 运行Python
       run: python main.py
 
-    - name: Commit and push
+    - name: 提交变更
       run: |
         git config --local user.email "cymz6@hotmail.com"
         git config --local user.name "acymz"
         git add .
-        git commit -m 'Automated update from main.py'
+        git commit -m '采集更新'
         git push -f
