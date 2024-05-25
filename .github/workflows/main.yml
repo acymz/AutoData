@@ -1,0 +1,31 @@
+name: 数据收集
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 17 * * *'
+
+jobs:
+  get-json:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: 设置Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: 安装requests
+      run: pip install requests
+
+    - name: 运行Python
+      run: python main.py
+
+    - name: 提交变更
+      run: |
+        git config --local user.email "cymz6@hotmail.com"
+        git config --local user.name "acymz"
+        git add .
+        git commit -m '采集更新'
+        git push -f
