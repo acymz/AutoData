@@ -29,6 +29,8 @@ if __name__ == "__main__":
     # 获取TVBox肥猫接口
     fetch_and_save('http://xn--z7x900a.live/', 'data/肥猫.txt', 'okhttp/3.12.11')
     # 获取TVBox巧技接口
+    fetch_and_save('http://xn--sss604efuw.top/tv', 'data/饭太硬.txt', 'okhttp/3.12.11')
+    # 获取TVBox巧技接口
     fetch_and_save('http://cdn.qiaoji8.com/tvbox.json', 'data/巧技.txt', 'okhttp/3.12.11')
 
     # 获取当前日期
