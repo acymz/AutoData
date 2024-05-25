@@ -8,7 +8,7 @@
 
 3.所有内容未经人工审核，不排除某些内容可能会引起您的不适。
 
-4.每天自动更新，侵权请联系: mail@ntvbox.eu.org 删除相关内容。
+4.每天自动更新，侵权请联系: email@vpn66.filegear-sg.me 删除相关内容。
 
 5.大陆访问受限，可使用本仓提供的代理：https://gh.vpn66.filegear-sg.me/
 
