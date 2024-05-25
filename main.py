@@ -31,10 +31,7 @@ if __name__ == "__main__":
     # 获取TVBox巧技接口
     fetch_and_save('http://cdn.qiaoji8.com/tvbox.json', 'data/巧技.txt', 'okhttp/3.12.11')
     # 获取TVBox饭太硬接口
-    # fetch_and_save('http://xn--sss604efuw.top/tv', 'data/饭太硬.txt', 'okhttp/3.12.11')
-    # 获取TVBox饭太硬接口（明文获取）
-    fetch_and_save('https://nxog.top/jm/api.php?ou=http://xn--sss604efuw.top/tv', 'data/饭太硬.txt')
-    
+    fetch_and_save('http://xn--sss604efuw.top/tv', 'data/饭太硬.txt', 'okhttp/3.12.11')
     # 获取当前日期
     current_date = datetime.now().strftime("%Y%m%d")
     zip_filename = f"{current_date}.zip"
