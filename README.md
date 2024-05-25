@@ -1,4 +1,5 @@
-# NTVBox AutoData-Collection
+# AutoData-Collection
+## 自动采集
 ### 声明:
 
 1.所有内容均来自与互联网公开引用资源，脚本仅执行收集和整理流程。
