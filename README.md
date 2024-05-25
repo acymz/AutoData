@@ -28,5 +28,8 @@ https://raw.githubusercontent.com/acymz/ntvbox/main/data/饭太硬.txt
 ```
 ### 鸣谢
 
-TVBox接口_肥猫_Author: https://xn--z7x900a.live/
+TVBox接口_肥猫_Author: https://肥猫.live/
 
+TVBox接口_巧技_Author: https://www.qiaoji8.com/
+
+TVBox接口_饭太硬_Author: http://饭太硬.com/
