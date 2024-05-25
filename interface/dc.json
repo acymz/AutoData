@@ -5,8 +5,8 @@
             "sourceurl": "https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt"
         },
         {
-            "sourcename": "云星在线仓",
-            "sourceurl": "https://itvbox.cc/可视tv/云星日记/仓库/api.json"
-        },
+            "sourcename": "巧技",
+            "sourceurl": "https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt"
+        }
     ]
 }
