@@ -28,10 +28,12 @@ if __name__ == "__main__":
     fetch_and_save('https://quan.suning.com/getSysTime.do', 'data/Script_execution_time.txt')
     # 获取TVBox肥猫接口
     fetch_and_save('http://xn--z7x900a.live/', 'data/肥猫.txt', 'okhttp/3.12.11')
-    # 获取TVBox巧技接口
-    fetch_and_save('http://xn--sss604efuw.top/tv', 'data/饭太硬.txt', 'okhttp/3.12.11')
+    # 获取TVBox欧歌接口
+    fetch_and_save('http://vip.nxog.top/m/', 'data/欧歌.txt', 'okhttp/3.12.11')
     # 获取TVBox巧技接口
     fetch_and_save('http://cdn.qiaoji8.com/tvbox.json', 'data/巧技.txt', 'okhttp/3.12.11')
+    # 获取TVBox饭太硬接口
+    fetch_and_save('http://xn--sss604efuw.top/tv', 'data/饭太硬.txt', 'okhttp/3.12.11')
 
     # 获取当前日期
     current_date = datetime.now().strftime("%Y%m%d")
