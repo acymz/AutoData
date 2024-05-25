@@ -2,11 +2,11 @@
     "storehouse": [
         {
             "sourcename": "肥猫",
-            "sourceurl": "https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt"
+            "sourceurl": "https://gh.vpn66.filegear-sg.me/https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt"
         },
         {
             "sourcename": "巧技",
-            "sourceurl": "https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt"
+            "sourceurl": "https://gh.vpn66.filegear-sg.me/https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt"
         }
     ]
 }
