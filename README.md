@@ -13,7 +13,7 @@
 
 ### 订阅:
 
-DIYP直播源订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/直播源.txt
+DIYP直播源订阅：```https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/直播源.txt```
 
 TVBox巧技订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/巧技.txt
 
