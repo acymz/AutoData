@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # 获取TVBox肥猫接口
     fetch_and_save('http://xn--z7x900a.live/', 'data/肥猫.txt', 'okhttp/3.12.11')
     # 获取TVBox欧歌接口
-    fetch_and_save('http://tv.nxog.top/m/111.php?b=tv&ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp', 'data/欧歌.txt', 'okhttp/3.12.11')
+    fetch_and_save('http://tv.nxog.top/m/111.php', 'data/欧歌.txt', 'okhttp/3.12.11')
     # 获取TVBox巧技接口
     fetch_and_save('http://cdn.qiaoji8.com/tvbox.json', 'data/巧技.txt', 'okhttp/3.12.11')
     # 获取TVBox饭太硬接口
