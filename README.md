@@ -1,5 +1,5 @@
 # AutoData-Collection
-## 定时自动执行订阅内容的收集任务
+## 定时自动执行订阅内容的收集任务。
 ### 声明:
 
 1.所有内容均来自与互联网公开引用资源，脚本仅执行收集和整理流程。
@@ -14,9 +14,16 @@
 
 ### 订阅:
 
-肥猫：https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt
+TVBox接口_肥猫：
+```
+https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt
+```
 
-巧技：https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt
+TVBox接口_巧技：https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt
 
-饭太硬：https://raw.githubusercontent.com/acymz/ntvbox/main/data/饭太硬.txt
+TVBox接口_饭太硬：https://raw.githubusercontent.com/acymz/ntvbox/main/data/饭太硬.txt
+
+### 鸣谢:
+
+TVBox接口_肥猫_Author: https://xn--z7x900a.live/
 
