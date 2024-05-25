@@ -1,0 +1,41 @@
+name: Run Python Script
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.x  # 指定Python版本
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests  # 安装requests库
+    - name: Run the script
+      run: |
+        cd data  # 切换到data目录
+        python ../../clan.py fm  # 运行脚本，传入参数1138
+    - name: Create ZIP archive
+      run: |
+        cd data  # 切换到data目录
+        zip -r ../../databak/data.zip ./*  # 将当前目录下的所有文件打包成ZIP文件
+    - name: Save ZIP to GitHub
+      run: |
+        cd ..  # 切换到仓库根目录
+        mkdir -p databak  # 创建databak目录，如果它不存在的话
+        mv data/data.zip databak/  # 将ZIP文件移动到databak目录
+    - name: Commit and push ZIP
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add databak/data.zip  # 添加ZIP文件到暂存区
+        git commit -m "Add ZIP archive"  # 创建提交
+        git push  # 推送到GitHub仓库
