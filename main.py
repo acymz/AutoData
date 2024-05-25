@@ -26,20 +26,10 @@ def fetch_and_save(url, save_path, user_agent=None):
 if __name__ == "__main__":
     # 获取脚本执行的时间戳
     fetch_and_save('https://quan.suning.com/getSysTime.do', 'data/Script_execution_time.txt')
-    # 获取diyp电视直播源接口
-    fetch_and_save('https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt', 'data/直播源.txt')
     # 获取TVBox肥猫接口
     fetch_and_save('http://xn--z7x900a.live/', 'data/肥猫.txt', 'okhttp/3.12.11')
     # 获取TVBox巧技接口
     fetch_and_save('http://cdn.qiaoji8.com/tvbox.json', 'data/巧技.txt', 'okhttp/3.12.11')
-    # 获取V2rayNG0接口
-    fetch_and_save('https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt', 'data/VPN0.txt')
-    # 获取V2rayNG1接口
-    fetch_and_save('https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub', 'data/VPN1.txt')
-    # 获取V2rayNG2接口
-    fetch_and_save('https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2', 'data/VPN2.txt')
-    # 获取V2rayNG3接口
-    fetch_and_save('https://www.xrayvip.com/free.txt', 'data/VPN3.txt')
 
     # 获取当前日期
     current_date = datetime.now().strftime("%Y%m%d")
