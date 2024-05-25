@@ -6,7 +6,7 @@ on:
     - cron: '0 17 * * *'
 
 jobs:
-  获取脚本:
+  get-json:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
