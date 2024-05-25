@@ -1,0 +1,31 @@
+name: 数据采集
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 17 * * *'
+
+jobs:
+  get-json:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x' # specify the Python version you want to use
+
+    - name: Install requests package
+      run: pip install requests
+
+    - name: Run main.py
+      run: python main.py
+
+    - name: Commit and push
+      run: |
+        git config --local user.email "cymz6@hotmail.com"
+        git config --local user.name "acymz"
+        git add .
+        git commit -m 'Automated update from main.py'
+        git push -f
