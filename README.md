@@ -18,15 +18,15 @@
 
 TVBox接口_肥猫：
 ```
-https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt
+https://raw.githubusercontent.com/acymz/AutoData/main/data/肥猫.txt
 ```
 TVBox接口_巧技：
 ```
-https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt
+https://raw.githubusercontent.com/acymz/AutoData/main/data/巧技.txt
 ```
 TVBox接口_饭太硬：
 ```
-https://raw.githubusercontent.com/acymz/ntvbox/main/data/饭太硬.txt
+https://raw.githubusercontent.com/acymz/AutoData/main/data/饭太硬.txt
 ```
 ### 鸣谢
 
