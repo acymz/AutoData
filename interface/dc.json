@@ -3,7 +3,8 @@
 {
 "storeHouse": [
 { "sourceName": "肥猫", "sourceUrl": "https://gh.vpn66.filegear-sg.me/https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt" }, 
-{ "sourceName": "精品①号", "sourceUrl": "https://raw.iqiq.io/leevi0709/apps/main/1" }
+{ "sourceName": "巧技", "sourceUrl": "https://gh.vpn66.filegear-sg.me/https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt" }, 
+{ "sourceName": "饭太硬", "sourceUrl": "https://gh.vpn66.filegear-sg.me/https://raw.githubusercontent.com/acymz/ntvbox/main/data/饭太硬.txt" }
 
 ]
 }
