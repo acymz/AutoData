@@ -13,16 +13,9 @@
 
 ### 订阅:
 
-DIYP直播源订阅：`https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/直播源.txt`
+肥猫：https://raw.githubusercontent.com/acymz/ntvbox/main/data/肥猫.txt
 
-TVBox巧技订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/巧技.txt
+巧技：https://raw.githubusercontent.com/acymz/ntvbox/main/data/巧技.txt
 
-TVBox肥猫订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/肥猫.txt
+饭太硬：https://raw.githubusercontent.com/acymz/ntvbox/main/data/饭太硬.txt
 
-V2rayNG0订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/VPN0.txt
-
-V2rayNG1订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/VPN1.txt
-
-V2rayNG2订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/VPN2.txt
-
-V2rayNG3订阅：https://raw.githubusercontent.com/cymz6/AutoData-Collection/main/data/VPN3.txt
