@@ -17,9 +17,14 @@ jobs:
         python-version: '3.x'
 
     - name: 安装requests
-      run: pip install requests
+      run: |
+       pip install requests
+       pip install selenium requests futures eventlet
 
-    - name: 运行Python
+    - name: 运行iptv.py
+      run: python iptv.py
+
+    - name: 运行main.py
       run: python main.py
 
     - name: 提交变更
