@@ -28,6 +28,10 @@ TVBox接口_饭太硬：
 ```
 https://raw.githubusercontent.com/acymz/AutoData/main/data/饭太硬.txt
 ```
+DIYP接口_直播源：
+```
+https://raw.githubusercontent.com/acymz/AutoData/main/data/lives.txt
+```
 ### 鸣谢
 
 TVBox接口_肥猫_Author: https://肥猫.live/
@@ -35,3 +39,5 @@ TVBox接口_肥猫_Author: https://肥猫.live/
 TVBox接口_巧技_Author: https://www.qiaoji8.com/
 
 TVBox接口_饭太硬_Author: http://饭太硬.com/
+
+DIYP接口_直播源_Author: https://github.com/ssili126/tv
