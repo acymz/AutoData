@@ -21,11 +21,21 @@ jobs:
        pip install requests
        pip install selenium requests futures eventlet
 
+    - name: 运行v2ray.py
+      run: python v2ray.py
+
     - name: 运行iptv.py
       run: python iptv.py
 
     - name: 运行main.py
       run: python main.py
+
+    - name: Run Python Script
+      run: python main.py
+      
+    - name: 删除临时文件
+      run: |
+        rm list.txt
 
     - name: 提交变更
       run: |
