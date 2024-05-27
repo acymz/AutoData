@@ -23,6 +23,8 @@ jobs:
 
     - name: Run Python
       run: |
+       python v2ray.py
+       python iptv.py
        python main.py
 
     - name: Push
