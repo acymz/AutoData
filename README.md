@@ -32,6 +32,10 @@ DIYP接口_直播源：
 ```
 https://raw.githubusercontent.com/acymz/AutoData/main/data/lives.txt
 ```
+网上学科接口_V2ray：
+```
+https://raw.githubusercontent.com/acymz/AutoData/main/data/V2.txt
+```
 ### 鸣谢
 
 TVBox接口_肥猫_Author: https://肥猫.live/
@@ -41,3 +45,5 @@ TVBox接口_巧技_Author: https://www.qiaoji8.com/
 TVBox接口_饭太硬_Author: http://饭太硬.com/
 
 DIYP接口_直播源_Author: https://github.com/ssili126/tv
+
+网上学科接口_V2ray: https://github.com/peasoft/NoMoreWalls
