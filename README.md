@@ -36,6 +36,10 @@ https://raw.githubusercontent.com/acymz/AutoData/main/data/lives.txt
 ```
 https://raw.githubusercontent.com/acymz/AutoData/main/data/V2.txt
 ```
+阅读接口_书源：
+```
+https://raw.githubusercontent.com/acymz/AutoData/main/data/book.txt
+```
 ### 鸣谢
 
 TVBox接口_肥猫_Author: https://肥猫.live/
@@ -47,3 +51,5 @@ TVBox接口_饭太硬_Author: http://饭太硬.com/
 DIYP接口_直播源_Author: https://github.com/ssili126/tv
 
 网上学科接口_V2ray_Author: https://github.com/peasoft/NoMoreWalls
+
+阅读接口_书源_Author：https://github.com/shidahuilang/shuyuan
