@@ -46,4 +46,4 @@ TVBox接口_饭太硬_Author: http://饭太硬.com/
 
 DIYP接口_直播源_Author: https://github.com/ssili126/tv
 
-网上学科接口_V2ray: https://github.com/peasoft/NoMoreWalls
+网上学科接口_V2ray_Author: https://github.com/peasoft/NoMoreWalls
