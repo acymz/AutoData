@@ -1,5 +1,6 @@
 # AutoData-Collection
 ## 定时自动执行订阅内容的收集任务
+## 防丢页面：https://vpn66.filegear-sg.me/
 ### 声明
 
 1.所有内容均来自与互联网公开引用资源，脚本仅执行收集和整理流程。
