@@ -1,4 +1,4 @@
-name: 数据收集
+name: AutoData-Collection
 
 on:
   workflow_dispatch:
