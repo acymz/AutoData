@@ -11,36 +11,26 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: 设置Python
+    - name: Set Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
-    - name: 安装requests
+    - name: Install requests
       run: |
        pip install requests
        pip install selenium requests futures eventlet
 
-    - name: 运行v2ray.py
-      run: python v2ray.py
+    - name: Run Python
+      run: |
+       python main.py
+       python v2ray.py
+       python iptv.py
 
-    # - name: 运行iptv.py
-    #   run: python iptv.py
-
-    - name: 运行main.py
-      run: python main.py
-
-    - name: Run Python Script
-      run: python main.py
-      
-    # - name: 删除临时文件
-    #   run: |
-    #     rm list.txt
-
-    - name: 提交变更
+    - name: Push
       run: |
         git config --local user.email "cymz6@hotmail.com"
         git config --local user.name "acymz"
         git add .
-        git commit -m '采集更新'
+        git commit -m 'Auto-Update'
         git push -f
