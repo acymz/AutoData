@@ -1,26 +1,45 @@
-import base64
-import requests
 import os
+import requests
+import base64
+from datetime import datetime
 
-# Download list.txt from GitHub
-list_url = "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
-response = requests.get(list_url)
-with open("list.txt", "wb") as file:
-    file.write(response.content)
+# Function to fetch and decode URLs
+def fetch_and_decode(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        content = response.text
+        decoded_content = base64.b64decode(content).decode('utf-8')
+        return decoded_content
+    else:
+        print(f"Failed to fetch {url}")
+        return ""
 
-# Read and decode list.txt
-with open("list.txt", "r") as file:
-    content = file.read()
-decoded_content = base64.b64decode(content).decode('utf-8')
+# URLs to fetch
+urls = [
+    "https://www.xrayvip.com/free.txt",
+    "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+]
 
-# Filter out lines starting with "http"
-filtered_lines = [line for line in decoded_content.split('\n') if not line.startswith("http")]
-encoded_content = base64.b64encode('\n'.join(filtered_lines).encode('utf-8')).decode('utf-8')
+# Fetch, decode, and filter the contents
+filtered_contents = []
+for url in urls:
+    decoded_content = fetch_and_decode(url)
+    filtered_lines = [line for line in decoded_content.splitlines() if not line.startswith("http")]
+    filtered_contents.extend(filtered_lines)
 
-# Create data directory if it doesn't exist
-if not os.path.exists("data"):
-    os.makedirs("data")
+# Combine and encode the contents
+combined_content = "\n".join(filtered_contents)
+encoded_content = base64.b64encode(combined_content.encode('utf-8')).decode('utf-8')
 
-# Save the encoded content to V2 files
-with open("data/V2.txt", "w") as file:
-    file.write(encoded_content)
+# Save the encoded content to files
+data_dir = "data"
+v2_filename = "V2.txt"
+
+# Create directories if they don't exist
+os.makedirs(data_dir, exist_ok=True)
+
+# Save to data/V2.txt
+with open(os.path.join(data_dir, v2_filename), "w") as f:
+    f.write(encoded_content)
