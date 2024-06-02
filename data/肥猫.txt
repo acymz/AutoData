@@ -1,5 +1,5 @@
 {
-  "spider": "https://mpimg.cn/down.php/85e832f30273e71868b241a45f4c7082.jar;md5;85e832f30273e71868b241a45f4c7082",
+  "spider": "https://mpimg.cn/down.php/62c64a48bd009f9391e7dcd6bd3cf989.jar;md5;62c64a48bd009f9391e7dcd6bd3cf989",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "logo":"http://我不是.肥猫.live/fatcat.jpg",
   "sites": [
@@ -123,51 +123,13 @@
       "api": "csp_AppRZ",
       "ext": "http://rzys.xyz/"
     },
-    {
-      "key": "csp_Nmys",
-      "name": "🌾┃农民┃影视",
-      "type": 3,
-      "api": "csp_Nmys",
-      "playerType": "1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://v.nmvod.cn"
-    },
-    {
-      "key": "csp_Auete",
-      "name": "🦝┃Aue┃影视",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Kuaikan",
-      "name": "👀┃快看┃影视",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "FreeOK",
       "name": "️️👌┃Fre┃影视",
       "type": 3,
       "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
       "ext": "http://dt.xn--yety82d.love/js/FreeOK.js"
-    },
-    {
-      "key": "哔嘀",
-      "name": "️️💦┃哔嘀┃影视",
-      "type": 3,
-      "api": "csp_Bdys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": "1"
     },
     {
       "key": "毛驴",
@@ -188,20 +150,22 @@
       "filterable": 1
     },
     {
+      "key": "可可",
+      "name": " 😝┃可可┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Keke",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "saohuo",
       "name": " 👗┃骚火┃影视",
       "type": 3,
       "playerType": "2",
       "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
       "ext": "http://dt.xn--yety82d.love/js/骚火.js"
-    },
-    {
-      "key": "爱看影视",
-      "name": "❤┃爱看┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/爱看.js"
     },
     {
       "key": "云播影视",
@@ -212,45 +176,11 @@
       "ext": "http://dt.xn--yety82d.love/js/TVB云播.js"
     },
     {
-         "key": "小蚂蚁",
-         "name": "🐜┃蚂蚁┃影视",
-         "type": 3,
-         "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-         "ext": "http://dt.xn--yety82d.love/js/小蚂蚁2.js"
-    },
-    {
       "key": "csp_Xb6v",
       "name": "🐤┃6V磁力┃影视",
       "type": 3,
       "api": "csp_Xb6v",
       "playerType": "2"
-    },
-    {
-      "key": "乐乐",
-      "name": "🎡️┃乐乐┃影视",
-      "type": 1,
-      "api": "https://leshizyapi.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "开心",
-      "name": "🥰️┃开心┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://rihou.vip:55/lib/开心HK影视.json"
-    },
-    {
-      "key": "小胡",
-      "name": "🍈️┃小胡┃影视",
-      "type": 3,
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/小胡.js",
-      "playerType": 2
     },
     {
       "key": "低端",
@@ -259,14 +189,6 @@
       "playerType": "2",
       "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
       "ext": "http://dt.xn--yety82d.love/js/ddys.js"
-    },
-    {
-      "key": "奇优",
-      "name": " 🍩┃奇优┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/奇优.js"
     },
     {
       "key": "虎虎",
@@ -326,18 +248,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key":"csp_LIBVIO",
-            "name":"🍒┃荔波┃影视",
-            "type":3,
-            "api":"csp_XBPQ",
-            "playerType": 2,
-            "ext":{
-                "分类": "电影$1#剧集$2#动漫$4#日韩剧$15#欧美剧$16",
-                "分类url": "https://www.libvio.fun/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-                "线路数组": "<h3 class=\"iconfont&&</div>[不包含:视频下载#网盘]"
-            }
-        },
     {
       "key": "csp_SP360",
       "name": "📺┃360┃官源",
@@ -386,13 +296,6 @@
         "type": "rect",
         "ratio": 1.333
       }
-    },
-    {
-      "key": "樱花动漫",
-      "name": "🌸┃樱花┃动漫",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Ying"
     },
     {
       "key": "csp_Dm84",
@@ -475,11 +378,11 @@
       "ext": "http://dt.xn--yety82d.love/js/310直播.js"
     },
     {
-      "key": "七夜",
-      "name": "🌖┃七夜┃网盘",
+      "key": "米搜",
+      "name": "🌖┃米搜┃网盘",
       "type": 3,
-      "api": "csp_Dovx",
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+      "api": "csp_MiSou",
+      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
     },
     {
       "key": "csp_Pansou",
@@ -490,7 +393,7 @@
     },
     {
       "key": "csp_PanSearch",
-      "name": "🚃┃盘搜┃网盘2",
+      "name": "🚃┃盘搜┃网盘",
       "type": 3,
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
@@ -511,7 +414,7 @@
       "api": "csp_AiPanSo",
       "timeout": 30,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
     },
     {
       "key": "drpy_哔哩",
