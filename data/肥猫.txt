@@ -1,5 +1,5 @@
 {
-  "spider": "https://cloud.lxweb.cn/f/VAbjFr/PandaQ240605.jar;md5;c511ab626f97dfe55bff588b5b8ac49c",
+  "spider": "http://happy.xn--z7x900a.live/jar/PandaQ240616.jar;md5;53fd0f0582cd66035dbdae77a2eadeb3",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "logo":"http://我不是.肥猫.live/fatcat.jpg",
   "sites": [
@@ -32,13 +32,22 @@
       "name": "🎃┃南瓜┃影视",
       "type": 3,
       "playerType": "2",
-      "api": "http://dt.xn--yety82d.love/js/ng_open.js"
+      "api": "http://js.xn--z7x900a.com/js/ng_open.js"
     },
     {
       "key": "新视觉",
       "name": "🐦┃视觉┃影视",
       "type": 3,
       "api": "csp_Xinsj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "哔嘀",
+      "name": "😹┃哔嘀┃影视",
+      "type": 3,
+      "api": "csp_Bdys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -53,6 +62,13 @@
       "filterable": 1,
       "playerType": 1,
       "ext": "https://physvod.com"
+    },
+    {
+        "key": "csp_FengGo",
+        "name": "🐕┃疯狗┃影视",
+        "type": 3,
+        "api": "csp_FengGo",
+        "playerType": 2
     },
     {
       "key": "csp_Nkdy",
@@ -136,8 +152,10 @@
       "key": "FreeOK",
       "name": "️️👌┃Fre┃影视",
       "type": 3,
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/FreeOK.js"
+      "api": "csp_FreeOK",      
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "毛驴",
@@ -168,19 +186,12 @@
       "filterable": 1
     },
     {
-      "key": "saohuo",
-      "name": " 👗┃骚火┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_SaoHuo"
-    },
-    {
       "key": "云播影视",
       "name": "☁️┃云播┃影视",
       "type": 3,
       "playerType": "2",
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/TVB云播.js"
+      "api": "http://js.xn--z7x900a.com/js/lib/drpy2.min.js",
+      "ext": "http://js.xn--z7x900a.com/js/TVB云播.js"
     },
     {
       "key": "csp_Xb6v",
@@ -194,8 +205,8 @@
       "name": "🛣┃低端┃影视",
       "type": 3,
       "playerType": "2",
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/ddys.js"
+      "api": "http://js.xn--z7x900a.com/js/lib/drpy2.min.js",
+      "ext": "http://js.xn--z7x900a.com/js/ddys.js"
     },
     {
       "key": "虎虎",
@@ -277,7 +288,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://alist.xn--z7x900a.live/alist.json"
+      "ext": "http://js.xn--z7x900a.com/js/alist.json"
     },
     {
       "key": "csp_BookTing",
@@ -347,17 +358,63 @@
       },
       "gridview": "0-0-4.1"
     },
+     {
+      "key": "酷奇",
+      "name": "🎤┃酷奇┃MV",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js"
+    },
+    {
+      "key": "MTV",
+      "name": "🎧┃明星┃MV",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
+    },
     {
       "key": " 在线┃直播1",
       "name": "📺┃竞技┃直播",
       "type": 3,
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
-      "ext": "http://dt.xn--yety82d.love/js/JustLive.js",
+      "api": "csp_JustLive",
       "gridview": "0-0-H",
       "style": {
         "type": "rect",
         "ratio": 1.68
       }
+    },
+        {
+      "key": "虎牙直播js",
+      "name": "🐯┃虎牙┃直播",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "playerType": 1,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js"
+    },
+    {
+      "key": "斗鱼js",
+      "name": "🐟┃斗鱼┃直播",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "playerType": 1,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js"
+    },
+    {
+      "key": "聚短视频js",
+      "name": "📽┃️聚短┃视频",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js"
     },
     {
       "key": "看球",
@@ -376,13 +433,13 @@
       "key": "drpy_js_310直播",
       "name": "🏀┃体育┃直播",
       "type": 3,
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
+      "api": "http://js.xn--z7x900a.com/js/lib/drpy2.min.js",
       "changeable": 0,
       "gridview": 3,
       "style": {
         "type": "list"
       },
-      "ext": "http://dt.xn--yety82d.love/js/310直播.js"
+      "ext": "http://js.xn--z7x900a.com/js/310直播.js"
     },
     {
       "key": "米搜",
@@ -427,15 +484,15 @@
       "key": "drpy_哔哩",
       "name": "🅱┃哔哩┃合集",
       "type": 3,
-      "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
+      "api": "csp_Bili",
       "playerType": 1,
-      "ext": "http://dt.xn--yety82d.love/js/B站.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
     },
     {
       "key": "儿童",
       "name": "📚┃儿童┃启蒙",
       "type": 3,
-      "api": "http://alist.xn--z7x900a.live/ddrpy2.m.js",
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
@@ -443,7 +500,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "http://alist.xn--z7x900a.live/兔小贝.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
     },
     {
       "key": "少儿",
@@ -457,7 +514,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "http://alist.xn--z7x900a.live/少儿教育.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
     },
     {
       "key": "小学",
@@ -471,7 +528,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "http://alist.xn--z7x900a.live/小学课堂.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
     },
     {
       "key": "初中",
@@ -485,7 +542,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "http://alist.xn--z7x900a.live/初中课堂.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
     },
     {
       "key": "高中",
@@ -499,7 +556,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "http://alist.xn--z7x900a.live/高中课堂.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
     },
     {
       "key": "push_agent",
